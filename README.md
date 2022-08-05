@@ -74,7 +74,7 @@ Accuracy: 95%
 
 
 
-# Team Member
+# Team Members
 * Rohan Srinivasan (Me) (Linkedin: https://www.linkedin.com/in/rohan-srinivasan-2457591b1/)
 * Peddi Giridhar (https://github.com/Giridhar4) (Linkedin: https://www.linkedin.com/in/giridhar-peddi-68485519b/)
 * Simone Singh (Linkedin: https://www.linkedin.com/in/simone-singh-29946a143/)
