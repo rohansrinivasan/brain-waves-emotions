@@ -23,11 +23,13 @@ There are a few different types of EEG headsets. Comparison is often drawn betwe
 # Open BCI 
 OpenBCI is an open-source brain-computer interface platform.
 OpenBCI boards can be used to measure and record electrical activity produced by the brain (EEG), muscles (EMG), and heart (EKG), and is compatible with standard EEG electrodes. The OpenBCI boards can be used with the open source OpenBCI GUI, or they can be integrated with other open-source EEG signal processing tools.
+
 ![emotion1](https://user-images.githubusercontent.com/102278418/183085800-9f31d8e1-5d58-4975-9d4c-bba85416980c.jpg)
 
 
 # Ultracortex Mark IV Helmet
 The Ultracortex is an open-source, 3D-printable headset intended to work with any OpenBCI Board. It is capable of recording research-grade brain activity (EEG), muscle activity (EMG), and heart activity (ECG). It is not designed for transcranial stimulation. This headset is designed to receive EEG signals only. The Ultracortex Mark IV is capable of sampling up to 16 channels of EEG from up to 35 different 10-20 locations.
+
 ![emotion6](https://user-images.githubusercontent.com/102278418/183085821-70105a86-0fe2-46f2-a450-a229e3c2f0dc.jpg)
 
 
