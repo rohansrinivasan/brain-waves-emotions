@@ -9,6 +9,7 @@ The classic names of these EEG bands are:
 * Alpha Brainwaves (8-12 Hz)
 * Beta Brainwaves (13 – 38 Hz) 
 * Gamma Brainwaves (39 – 42 Hz)
+
 Each of us, however, always has some degree of each of these brainwave bands present in different parts of our brain. Delta brainwaves will also occur when areas of the brain go “off line” to take up nourishment. If we are becoming drowsy, there are more delta and slow theta
 brainwaves creeping in. If we are inattentive to external things and our mind is wandering, there is more theta present. If we are exceptionally anxious and tense, an excessively high frequency of beta brainwaves is often present.
 
@@ -22,23 +23,21 @@ There are a few different types of EEG headsets. Comparison is often drawn betwe
 # Open BCI 
 OpenBCI is an open-source brain-computer interface platform.
 OpenBCI boards can be used to measure and record electrical activity produced by the brain (EEG), muscles (EMG), and heart (EKG), and is compatible with standard EEG electrodes. The OpenBCI boards can be used with the open source OpenBCI GUI, or they can be integrated with other open-source EEG signal processing tools.
+![emotion1](https://user-images.githubusercontent.com/102278418/183085800-9f31d8e1-5d58-4975-9d4c-bba85416980c.jpg)
+
 
 # Ultracortex Mark IV Helmet
 The Ultracortex is an open-source, 3D-printable headset intended to work with any OpenBCI Board. It is capable of recording research-grade brain activity (EEG), muscle activity (EMG), and heart activity (ECG). It is not designed for transcranial stimulation. This headset is designed to receive EEG signals only. The Ultracortex Mark IV is capable of sampling up to 16 channels of EEG from up to 35 different 10-20 locations.
+![emotion6](https://user-images.githubusercontent.com/102278418/183085821-70105a86-0fe2-46f2-a450-a229e3c2f0dc.jpg)
+
 
 ## Dependencies
 * Python (3.6 or higher)
 * Pandas
 * Keras 
-* Tensorflow – Python library for developing deep neural networks.
-* Numpy – Python library used for working with arrays.
-* Matplotlib – It is a Python library used for plotting graphs to visualise data.
-* Scipy – Python library used for solving mathematical, technical and scientific
-problems.
-* Scikit-Learn – Python library for machine learning. It contains various machine
-learning algorithms within it.
-* Seaborn – A Python library built on top of Matplotlib. It is also used to visualise
-data.
+* Tensorflow 
+* Numpy
+* Matplotlib
 
 ### This project is ran/tested on Google Colab. 
 
@@ -47,6 +46,8 @@ data.
 * Dataset was collected via Open BCI software using an EEG headset with 8 sensors.
 * With each scensor, the particular brainwave emitted was calculated by the sensor nodes on the EEG headset and recorded on the Open BCI software. The waveform data is then pre-processed into arrays and used for the deep learning model.
 ### FFT Representation of dataset
+![emotion2](https://user-images.githubusercontent.com/102278418/183085924-8938c8cd-d5a7-4dc8-9bab-25c2d2be5ed2.jpg)
+
 
 # Model Architecture
 
@@ -59,17 +60,20 @@ data.
 Accuracy: 95%  
 
 ### Train vs Test Accuracy Graph
+![emotion5](https://user-images.githubusercontent.com/102278418/183086020-1c528964-9bf0-4ba9-bf48-4646a207f7c9.jpg)
 
 
 ### Train vs Test Loss Graph
+![emotion4](https://user-images.githubusercontent.com/102278418/183086031-2025cd6a-32ba-46db-85f6-421b34180e74.jpg)
 
 
 ### Confusion Matrix
+![emotion3](https://user-images.githubusercontent.com/102278418/183085989-9ce33ba4-8097-438d-abff-f1b94686b16b.jpg)
 
 
 
 # Team Member
-* Rohan Srinivasan (Me) ()
-* Peddi Giridhar 
-* Simone Singh
-* Sanjana Golaya
+* Rohan Srinivasan (Me) (Linkedin: https://www.linkedin.com/in/rohan-srinivasan-2457591b1/)
+* Peddi Giridhar (https://github.com/Giridhar4) (Linkedin: https://www.linkedin.com/in/giridhar-peddi-68485519b/)
+* Simone Singh (Linkedin: https://www.linkedin.com/in/simone-singh-29946a143/)
+* Sanjana Golaya (Linkedin: https://www.linkedin.com/in/sanjana-golaya/)
